@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-class-merge",
+  "version": "1.0.0",
+  "description": "A utility function that combines `clsx` and `tailwind-merge` to ensure that a string of Tailwind CSS classnames are free of duplications and conflicts.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "Tailwind"
+  ],
+  "author": "Keith Burgie",
+  "license": "ISC",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  }
+}

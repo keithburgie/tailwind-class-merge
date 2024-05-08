@@ -1,0 +1,7 @@
+node_modules
+.gitignore
+.npmignore
+index.ts
+index.test.ts
+tsconfig.json
+jest.config.js
